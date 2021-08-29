@@ -1,0 +1,194 @@
+desafio04.css
+
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 175px;
+	background-image: linear-gradient(to left bottom, #04B404 , #E0F8E6 , #CEF6D8);
+	position: absolute;
+	top: 0; 
+	border-bottom: 1px solid #000;
+	display: flex;
+}
+
+h1{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Permanent Marker, cursive;
+	color: #FF0000;
+	position: absolute;
+}
+
+.titulo{
+	margin-top: 40px;
+	font-size: 60px;
+	color: #FF0000;
+	display: flex;
+}
+
+img{
+	height: 0 auto;
+	width: 100px;
+	display: flex;
+	
+}
+
+.uem{
+	margin-left: 1150px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+body{
+	width: 100%;
+	height: 0 auto;
+	background-color: #81F79F;
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+
+ul {
+	width: 100%;
+	height: 85px;
+	padding: 5px;
+	margin-top: 175px;
+	margin-left: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to left top, #F2F2F2 , #E6E6E6, #D8D8D8);
+}
+
+li{
+	font-family: Permanent Marker, cursive;
+	font-weight: bold;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 3px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+li>a:hover{
+	color: #fff;
+}
+
+form{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn{
+	width: 100%;
+	height: 0 auto;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 5px;
+	background-image: linear-gradient(to left bottom, #8181F7, #D8D8D8);
+}
+
+.btn1{
+	background-image: linear-gradient(to left bottom, #8181F7, #D8D8D8);
+	font-weight: bold;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.geral{
+	margin: 100px;
+	margin-top: 40px;
+}
+
+div> a, p{
+	font-family: verdana, arail, cursive;
+}
+
+.caixa{
+	display: flex;
+	padding: 15px;
+	background-image: linear-gradient(to right top, #8181F7, #D8D8D8);
+	border-radius: 50px;
+}
+
+.text{
+	font-weight: bold;
+	font-family: Monda, cursive;
+}
+
+.text:hover{
+	color: #fff;
+}
+
+.subt{
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.subt2{
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #FF0000;
+}
+
+.pess{
+	margin-bottom: 15px;
+}
+
+ .alin{
+ 	display: flex;
+ 	flex-direction: column;
+}
+
+.box{
+	margin-top: 30px;
+}
+
+.pess2{
+
+}
+
+.pess2:hover{
+	width: 0 auto;
+	height: 0 auto;
+	margin-right: 850px;
+	background-color: #0B610B;
+	font-weight: bold; 
+}
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000;
+	display: flex;
+	position: relative;
+	top: auto;
+	bottom: 0;
+	background-color: #BDBDBD;
+	color: #000;
+	font-family: verdana, arial, cursive;
+	justify-content: center;
+	align-items: center;
+}

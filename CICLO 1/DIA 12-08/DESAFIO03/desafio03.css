@@ -1,0 +1,61 @@
+desafio03.css
+
+body {
+	margin: 0;
+	justify-items: center;
+	justify-content: center;
+	background-color: #E6E0F8;
+}
+
+header , footer {
+	width: 100%;
+	height: 40px;
+	background-color: #01DF74;
+	position: fixed;
+	border-bottom: 1px solid #000;
+}
+
+header{
+	top: 0;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	background-color: #01DF74;
+}
+
+main{
+	width: 100%;
+	height: 100%;
+	background-color: #CECEF6 ;
+	margin-top:40px ;
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	margin-left: 0 auto;
+}
+.contexto{
+	width: 800px;
+	height:100%;
+	
+}
+@media screen and (max-width:  700px){
+	main {
+			flex-direction: column;
+		}
+		#quadrado{
+			display: none;
+
+		}
+}
+#quadrado{
+	width: 20px;
+	height: 20px;
+	background-color:red;
+	margin-top:700px;
+	margin-right:435px;
+}
+
