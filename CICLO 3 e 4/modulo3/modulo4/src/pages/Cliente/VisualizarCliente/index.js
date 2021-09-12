@@ -33,7 +33,7 @@ export const VisualizarCliente = () => {
             <Container>
                 {status.type === "Error" ? <Alert color="danger">{status.message}</Alert> : ""}
 
-                <Table striped dark hover>
+                <Table bordered>
                     <thead>
                         <tr>
                             <th>Nome</th>
